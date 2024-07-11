@@ -1,4 +1,4 @@
-{% set version = "1.3.1" %}
+{% set version = "1.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/openalexR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/openalexR/openalexR_{{ version }}.tar.gz
-  sha256: 3cbae06485d8f32fad5cad9369738a8389a47221b3bc84c1c91d5c46efc71ac2
+  sha256: 78680ab13fd9697b61dfb3b781daf26abadc3186749e1eb3dc48aacee7e27091
 
 build:
   merge_build_host: true  # [win]
