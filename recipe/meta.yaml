@@ -1,4 +1,4 @@
-{% set version = "3.0.0" %}
+{% set version = "3.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/openalexR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/openalexR/openalexR_{{ version }}.tar.gz
-  sha256: 01e992dec7d802a1340e7bdb13ac1b45b17612487b4327c03ab23104f0ec0fed
+  sha256: f3e8e338e576c4131b739bc0c226c50e47c636c0dc95ba23621ee19f51b73e49
 
 build:
   number: 0
